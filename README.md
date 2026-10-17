@@ -45,10 +45,10 @@ An elegant, minimal single-row configuration optimized to remove cluttered stock
 
 Rigorously verified across scaling tiers. While optimized strictly for the 150% layout baseline to preserve pure geometric symmetry, the infrastructure functions stably without total layout collapse up to extreme resolution limits (250%).
 
-🚀 Installation Guide
+🚀 **Installation Guide**
 
 
-Prerequisites
+**Prerequisites**
 
  • Windhawk installed on your system. Download here: https://windhawk.net/     
 
@@ -94,5 +94,7 @@ This ultra-compressed 1-row layout achieves minimalism via negative XAML bounds.
 🔒 **Terms of Use & Copyright**
 
 Copyright © 2026 ZEUSosX. 
+
 All rights reserved. Custom Standard Copyright - All Rights Reserved by ZEUSosX [1.6].
+
 Made in Greece, by ZEUSosX, June 2026 (**Updated 17 October 2026**).
