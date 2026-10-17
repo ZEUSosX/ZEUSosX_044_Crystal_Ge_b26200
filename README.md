@@ -1,4 +1,4 @@
-![ZEUSosX 044 Crystal Preview](https://githubusercontent.com)
+![ZEUSosX 044 Crystal Preview](ZEUSosX_044_Crystal_Ge_b26200_Preview.png)
 
 ZEUSosX_044_Crystal_Ge_b26200
 
