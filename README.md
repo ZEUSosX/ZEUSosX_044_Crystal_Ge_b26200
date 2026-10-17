@@ -39,6 +39,7 @@ An elegant, minimal single-row configuration optimized to remove cluttered stock
 • Mac-Style Symmetrical Radii: Globally enforces a strict CornerRadius=16 across all titlebar components and pop-up overflow presenters for a fluid, premium aesthetic.
 • Zero-Flicker Solid Hover Overrides: Replaces unstable translucent layers with custom, unblocked high-contrast solid blue accents (#FF057AFD) on foreground hover states to protect text layers from rendering glitches.
 • Hidden/Clean Tabs Framework: Features a minimized and locked responsive tab skeleton layout tailored for minimalist setups.
+* **Crystal Glass Islands Background:** Injects a micro-calibrated custom background color (`#EDEFEF` with `0.5` opacity) strictly across Home View, Gallery View, and the Details Pane. This eliminates the native raw white background rendering bug, sealing all major workspace layers into unified, translucent glass surfaces.
 
 🎯 High-DPI Test Matrix Info
 
