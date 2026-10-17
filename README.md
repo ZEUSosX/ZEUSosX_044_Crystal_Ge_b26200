@@ -1,6 +1,6 @@
 ![ZEUSosX 044 Crystal Preview](ZEUSosX_044_Crystal_Ge_b26200_Preview.png)
 
-ZEUSosX_044_Crystal_Ge_b26200
+**ZEUSosX_044_Crystal_Ge_b26200**
 
 Premium WinUI 3 theme for Win11 File Explorer (Germanium Wave 1 b26200.9711). Fixed layout collapse and pixel snapping bugs caused by recent MS updates using subpixel floating-point calibration. Optimized for 150% DPI scale to restore the absolute 24px/27px Crystal Glass symmetry.
 
@@ -20,7 +20,7 @@ Microsoft completely altered the internal graphics compiler and layout engine of
 * **Multi-Scale Realities:** Due to native WinUI layout rounding discrepancies, this version shifts from a fully universal calibration to a targeted 150% DPI baseline profile to eliminate the 1px/2px floating font and frame jumps found on integer scaling tiers (like 125% and 175%).
 
 
-ZEUSosX 044 Crystal - Windows 11 File Explorer Styler Theme
+**ZEUSosX 044 Crystal - Windows 11 File Explorer Styler Theme**
 
 ### 📐 Calibrated 44px Single-Row Layout with Unified 2px Glass Borders (Optimized for 150% DPI)
 
@@ -64,10 +64,12 @@ Follow the standard Windhawk configuration process by installing the Windows 11 
 
 
 • Theme Name: ZEUSosX_044_Crystal
+
 • Background Effect: acrylic
+
 • Core Layout Height: 44px
 
-⚠️ Known Bugs & Limitations
+⚠️ **Known Bugs & Limitations**
 
 This ultra-compressed 1-row layout achieves minimalism via negative XAML bounds. Refer to the referenced repository for manual handling of window dragging, tab strips, and high-DPI font behaviors [1.6].
 
@@ -89,7 +91,8 @@ This ultra-compressed 1-row layout achieves minimalism via negative XAML bounds.
 * **Cause:** WinUI accessibility overrides.
 
 
-🔒 Terms of Use & Copyright
+🔒 **Terms of Use & Copyright**
 
-Copyright © 2026 ZEUSosX. All rights reserved. Custom Standard Copyright - All Rights Reserved by ZEUSosX [1.6].
-Made in Greece, by ZEUSosX, June 2026 (Updated 17 October 2026).
+Copyright © 2026 ZEUSosX. 
+All rights reserved. Custom Standard Copyright - All Rights Reserved by ZEUSosX [1.6].
+Made in Greece, by ZEUSosX, June 2026 (**Updated 17 October 2026**).
