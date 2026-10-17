@@ -1,4 +1,3 @@
-
 theme: ZEUSosX_044_Crystal
 backgroundTranslucentEffect: acrylic
 backgroundTranslucentEffectRegion: ''
@@ -91,15 +90,6 @@ controlStyles:
       - Padding=0,0,0,0
       - RequestedTheme=Auto
 
-  - target: Microsoft.UI.Xaml.Controls.AppBarButton#backButton > Grid@CommonStates
-    styles:
-      - Background:=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"><GradientStop Color="#45F6F6F6" Offset="0.0" /><GradientStop Color="#2DF9FBFD" Offset="0.5" /><GradientStop Color="#45FFFFFF" Offset="1" /></LinearGradientBrush>
-      - BorderThickness=2,2,0,2
-      - BorderBrush:=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"><GradientStop Color="#FFFFFFFF" Offset="0.0"/><GradientStop Color="#28FFFFFF" Offset="0.3"/><GradientStop Color="#28FFFFFF" Offset="0.7"/><GradientStop Color="#FFFFFFFF" Offset="1.0"/></LinearGradientBrush>
-      - CornerRadius=16,0,0,16
-      - Margin=0,0,0,0
-      - Height=32                      
-
   - target: Microsoft.UI.Xaml.Controls.AppBarButton#forwardButton > Grid@CommonStates
     styles:
       - Background:=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"><GradientStop Color="#45F6F6F6" Offset="0.0" /><GradientStop Color="#2DF9FBFD" Offset="0.5" /><GradientStop Color="#45FFFFFF" Offset="1" /></LinearGradientBrush>
@@ -109,7 +99,7 @@ controlStyles:
       - Margin=0,0,0,0
       - Height=32        
 
-      - target: Microsoft.UI.Xaml.Controls.AppBarButton#upButton > Grid@CommonStates
+  - target: Microsoft.UI.Xaml.Controls.AppBarButton#upButton > Grid@CommonStates
     styles:
       - Background:=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"><GradientStop Color="#45F6F6F6" Offset="0.0" /><GradientStop Color="#2DF9FBFD" Offset="0.5" /><GradientStop Color="#45FFFFFF" Offset="1" /></LinearGradientBrush>
       - BorderThickness=2
@@ -302,6 +292,3 @@ themeResourceVariables:
   - SubmenuItemForegroundPressed=#FF057AFD
 
 explorerFrameContainerHeight: 44
-          
-
-
