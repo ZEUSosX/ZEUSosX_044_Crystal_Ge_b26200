@@ -1,0 +1,307 @@
+
+theme: ZEUSosX_044_Crystal
+backgroundTranslucentEffect: acrylic
+backgroundTranslucentEffectRegion: ''
+controlStyles:
+  - target: FileExplorerExtensions.CommandBarControl_Wave1
+    styles:
+      - HorizontalAlignment=Left       
+      - Width=Auto                     
+      - MinWidth=0
+      - MaxWidth=Infinity              
+      - Margin=-40,0,0,0               
+
+  - target: FileExplorerExtensions.CommandBarControl_Wave1 > Grid
+    styles:
+      - Background=Transparent
+      - BorderThickness=0,0,0,0
+      - Margin=0,-30,0,0               
+
+  - target: Microsoft.UI.Xaml.Controls.CommandBar#FileExplorerCommandBar > Grid#PART_ItemsControl, Microsoft.UI.Xaml.Controls.CommandBar#FileExplorerCommandBar ItemsControl, Grid#PART_ItemsControl
+    styles:
+      - HorizontalAlignment=Left
+      - Width=44                       
+      - MinWidth=44
+      - MaxWidth=44
+      - Margin=0,0,0,0
+      - Visibility=Visible
+
+  - target: Microsoft.UI.Xaml.Controls.CommandBar#FileExplorerCommandBar
+    styles:
+      - Background=Transparent
+      - BorderBrush=Transparent
+      - BorderThickness=0
+      - HorizontalAlignment=Left
+      - Width=86                       
+      - MinWidth=86
+      - MaxWidth=86
+      - Margin=0,0,0,0
+      - RequestedTheme=Auto
+
+  - target: Microsoft.UI.Xaml.Controls.Grid#NavigationBarControlGrid
+    styles:
+      - Background=Transparent
+      - BorderThickness=0
+      - BorderBrush=Transparent
+      - ColumnDefinitions:=<ColumnDefinitionCollection><ColumnDefinition Width="Auto"/><ColumnDefinition Width="*"/><ColumnDefinition Width="621"/></ColumnDefinitionCollection>
+      - Margin=0,-16,0,-21
+      - RequestedTheme=Auto
+
+  - target: CommandBar#FileExplorerCommandBar > Grid#LayoutRoot > Grid#ContentRoot > Button#MoreButton
+    styles:
+      - Background:=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"><GradientStop Color="#45F6F6F6" Offset="0.0" /><GradientStop Color="#2DF9FBFD" Offset="0.5" /><GradientStop Color="#45FFFFFF" Offset="1.0" /></LinearGradientBrush>
+      - BorderThickness=2
+      - BorderBrush:=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"><GradientStop Color="#FFFFFFFF" Offset="0.0"/><GradientStop Color="#28FFFFFF" Offset="0.3"/><GradientStop Color="#28FFFFFF" Offset="0.7"/><GradientStop Color="#FFFFFFFF" Offset="1.0"/></LinearGradientBrush>
+      - CornerRadius=16
+      - MinWidth=0
+      - MinHeight=0
+      - Padding=0
+      - Margin=3,-2.60,1.85,-4.60     
+      - VerticalAlignment=Stretch
+      - MaxHeight=44
+      - MaxWidth=40
+
+  - target: Microsoft.UI.Xaml.Controls.AppBarToggleButton
+    styles:
+      - Background:=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"><GradientStop Color="#45F6F6F6" Offset="0.0" /><GradientStop Color="#2DF9FBFD" Offset="0.5" /><GradientStop Color="#45FFFFFF" Offset="1" /></LinearGradientBrush>
+      - BorderThickness=2
+      - BorderBrush:=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"><GradientStop Color="#FFFFFFFF" Offset="0.0"/><GradientStop Color="#28FFFFFF" Offset="0.3"/><GradientStop Color="#28FFFFFF" Offset="0.7"/><GradientStop Color="#FFFFFFFF" Offset="1.0"/></LinearGradientBrush>
+      - CornerRadius=16
+      - Margin=2,0,2,0                 
+      - VerticalAlignment=Center
+
+  - target: Microsoft.UI.Xaml.Controls.Primitives.CommandBarOverflowPresenter
+    styles:
+      - CornerRadius=16
+
+  - target: MenuFlyoutItem
+    styles:
+      - Padding=12,8,12,8
+      - CornerRadius=16
+
+  - target: Microsoft.UI.Xaml.Controls.CommandBar#NavigationCommands
+    styles:
+      - Grid.Column=0
+      - HorizontalAlignment=Left
+      - VerticalAlignment=Top          
+      - Margin=134.5,-2,0,0            
+      - Width=190
+      - Height=44
+      - Canvas.ZIndex=100
+      - Padding=0,0,0,0
+      - RequestedTheme=Auto
+
+  - target: Microsoft.UI.Xaml.Controls.AppBarButton#backButton > Grid@CommonStates
+    styles:
+      - Background:=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"><GradientStop Color="#45F6F6F6" Offset="0.0" /><GradientStop Color="#2DF9FBFD" Offset="0.5" /><GradientStop Color="#45FFFFFF" Offset="1" /></LinearGradientBrush>
+      - BorderThickness=2,2,0,2
+      - BorderBrush:=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"><GradientStop Color="#FFFFFFFF" Offset="0.0"/><GradientStop Color="#28FFFFFF" Offset="0.3"/><GradientStop Color="#28FFFFFF" Offset="0.7"/><GradientStop Color="#FFFFFFFF" Offset="1.0"/></LinearGradientBrush>
+      - CornerRadius=16,0,0,16
+      - Margin=0,0,0,0
+      - Height=32                      
+
+  - target: Microsoft.UI.Xaml.Controls.AppBarButton#forwardButton > Grid@CommonStates
+    styles:
+      - Background:=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"><GradientStop Color="#45F6F6F6" Offset="0.0" /><GradientStop Color="#2DF9FBFD" Offset="0.5" /><GradientStop Color="#45FFFFFF" Offset="1" /></LinearGradientBrush>
+      - BorderThickness=0,2,2,2
+      - BorderBrush:=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"><GradientStop Color="#FFFFFFFF" Offset="0.0"/><GradientStop Color="#28FFFFFF" Offset="0.3"/><GradientStop Color="#28FFFFFF" Offset="0.7"/><GradientStop Color="#FFFFFFFF" Offset="1.0"/></LinearGradientBrush>
+      - CornerRadius=0,16,16,0
+      - Margin=0,0,0,0
+      - Height=32        
+
+      - target: Microsoft.UI.Xaml.Controls.AppBarButton#upButton > Grid@CommonStates
+    styles:
+      - Background:=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"><GradientStop Color="#45F6F6F6" Offset="0.0" /><GradientStop Color="#2DF9FBFD" Offset="0.5" /><GradientStop Color="#45FFFFFF" Offset="1" /></LinearGradientBrush>
+      - BorderThickness=2
+      - BorderBrush:=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"><GradientStop Color="#FFFFFFFF" Offset="0.0"/><GradientStop Color="#28FFFFFF" Offset="0.3"/><GradientStop Color="#28FFFFFF" Offset="0.7"/><GradientStop Color="#FFFFFFFF" Offset="1.0"/></LinearGradientBrush>
+      - CornerRadius=16
+      - Height=32                      
+
+  - target: Microsoft.UI.Xaml.Controls.AppBarButton#refreshButton > Grid@CommonStates
+    styles:
+      - Background:=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"><GradientStop Color="#45F6F6F6" Offset="0.0" /><GradientStop Color="#2DF9FBFD" Offset="0.5" /><GradientStop Color="#45FFFFFF" Offset="1" /></LinearGradientBrush>
+      - BorderThickness=2
+      - BorderBrush:=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"><GradientStop Color="#FFFFFFFF" Offset="0.0"/><GradientStop Color="#28FFFFFF" Offset="0.3"/><GradientStop Color="#28FFFFFF" Offset="0.7"/><GradientStop Color="#FFFFFFFF" Offset="1.0"/></LinearGradientBrush>
+      - CornerRadius=16
+      - Height=32                      
+
+  - target: Microsoft.UI.Xaml.Controls.AppBarButton#backButton
+    styles:
+      - Width=32
+      - Height=28
+      - Margin=0,0,0,0                 
+      - VerticalAlignment=Center
+      - VerticalContentAlignment=Center
+
+  - target: Microsoft.UI.Xaml.Controls.AppBarButton#forwardButton
+    styles:
+      - Width=32
+      - Height=28
+      - Margin=0,0,16,0                
+      - VerticalAlignment=Center
+      - VerticalContentAlignment=Center
+
+  - target: Microsoft.UI.Xaml.Controls.AppBarButton#upButton
+    styles:
+      - Width=32
+      - Height=28
+      - Margin=0,0,16,0                
+      - VerticalAlignment=Center
+      - VerticalContentAlignment=Center
+
+  - target: Microsoft.UI.Xaml.Controls.AppBarButton#refreshButton
+    styles:
+      - Width=32
+      - Height=28
+      - Margin=0,0,6.5,0                
+      - VerticalAlignment=Center
+      - VerticalContentAlignment=Center
+
+  - target: Microsoft.UI.Xaml.Controls.Grid#FileExplorerAddressBarGrid
+    styles:
+      - HorizontalAlignment=Stretch
+      - Height=28                      
+      - Margin=2,1.33,-194.67,-1.33    
+      - MinWidth=160
+      - Padding=0,0,14,0
+      - Background=Transparent
+
+  - target: Grid#PART_LayoutRoot
+    styles:
+      - Background:=#45ffffff
+      - Background@PointerOver:=#FFDAEBF5
+      - BorderThickness=2
+      - BorderBrush:=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"><GradientStop Color="#FFFFFFFF" Offset="0.0"/><GradientStop Color="#28FFFFFF" Offset="0.3"/><GradientStop Color="#28FFFFFF" Offset="0.7"/><GradientStop Color="#FFFFFFFF" Offset="1.0"/></LinearGradientBrush>
+      - CornerRadius=16
+      - Margin=2,0,2,0
+
+  - target: Microsoft.UI.Xaml.Controls.Grid#FileExplorerAddressBarGrid > Grid#LayoutRoot > TextBox > Grid@CommonStates > Border#BorderElement
+    styles:
+      - Background=Transparent
+      - Background@Focused:=<SolidColorBrush Color="#00FFFFFF" Opacity="0"/>
+      - BorderThickness=2
+      - CornerRadius=16
+      - Padding=0,-1,0,1
+
+  - target: Microsoft.UI.Xaml.Controls.BreadcrumbBar
+    styles:
+      - Margin=0,0,0,0
+  - target: Microsoft.UI.Xaml.Controls.BreadcrumbBarItem
+    styles:
+      - Margin=0,0,0,0
+  - target: Microsoft.UI.Xaml.Controls.Primitives.BreadcrumbBarItemFlyout
+    styles:
+      - CornerRadius=16
+
+  - target: AutoSuggestBox#FileExplorerSearchBox
+    styles:
+      - Grid.Column=2
+      - HorizontalAlignment=Right
+      - Height=28
+      - Width=240
+      - Margin=0,1.68,186.67,0         
+      - Canvas.ZIndex=101
+
+  - target: AutoSuggestBox#FileExplorerSearchBox > Grid#LayoutRoot > TextBox > Grid@CommonStates > Border#BorderElement
+    styles:
+      - Background:=#45ffffff
+      - Background@Focused:=<SolidColorBrush Color="#FFFFFFFF" Opacity="1"/>
+      - BorderThickness=2
+      - BorderThickness@Focused=2
+      - BorderBrush:=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"><GradientStop Color="#FFFFFFFF" Offset="0.0"/><GradientStop Color="#28FFFFFF" Offset="0.3"/><GradientStop Color="#28FFFFFF" Offset="0.7"/><GradientStop Color="#FFFFFFFF" Offset="1.0"/></LinearGradientBrush>
+      - BorderBrush@Focused:=<SolidColorBrush Color="#A6057AFD" Opacity="1"/>
+      - CornerRadius=16
+
+  - target: Microsoft.UI.Xaml.Controls.AutoSuggestBox#FileExplorerSearchBox > Microsoft.UI.Xaml.Controls.Grid#LayoutRoot > Microsoft.UI.Xaml.Controls.TextBox#TextBox
+    styles:
+      - Margin=0,0,0,0
+      - Padding=0,4.67,0,0
+      - Background=Transparent
+      - BorderBrush=Transparent
+      - TextAlignment=Center
+      - HorizontalContentAlignment=Center
+
+  - target: Grid#TabContainerGrid
+    styles:
+      - Margin=100,0,0,0
+      - Width=1
+      - MaxWidth=1
+
+  - target: FileExplorerExtensions.FileExplorerTabControl
+    styles:
+      - Margin=100,0,0,0
+      - Width=1
+      - MaxWidth=1
+
+  - target: TabViewItem
+    styles:
+      - Width=0
+      - Visibility=Collapsed
+
+  - target: Grid#TabContainerGrid > Border > Button#AddButton
+    styles:
+      - Visibility=Collapsed
+
+  - target: Microsoft.UI.Xaml.Controls.Primitives.CommandBarOverflowPresenter, MenuFlyoutPresenter, FlyoutBorder
+    styles:
+      - UseLayoutRounding=True
+
+  - target: Grid#HomeViewRootGrid
+    styles:
+      - Margin=0,0,0,0
+      - Background:=<SolidColorBrush Color="#EDEFEF" Opacity="0.5"/> 
+      - CornerRadius=9                 
+
+  - target: FileExplorerExtensions.GalleryViewControl#GalleryViewControl > Grid
+    styles:
+      - Margin=0,0,0,0
+      - Background:=<SolidColorBrush Color="#EDEFEF" Opacity="0.5"/>
+      - CornerRadius=9
+
+  - target: Microsoft.UI.Xaml.Controls.Grid#GalleryRootGrid
+    styles:
+      - Margin=0,0,0,0
+      - Background=Transparent
+      - CornerRadius=9
+
+  - target: Grid#DetailsViewControlRootGrid
+    styles:
+      - Margin=-5,-5,-5,-5                 
+      - Background:=<SolidColorBrush Color="#EDEFEF" Opacity="0.5"/> 
+      - CornerRadius=9
+
+  - target: StackPanel#DetailsViewThumbnail > Grid
+    styles:
+      - Background=Transparent         
+
+  - target: FlyoutPresenter, Microsoft.UI.Xaml.Controls.FlyoutPresenter, Popup, Primitives.Popup, Microsoft.UI.Xaml.Controls.Primitives.Popup
+    styles:
+      - Margin=41,0,0,0                
+
+  - target: Microsoft.UI.Xaml.Controls.Primitives.CommandBarOverflowPresenter
+    styles:
+      - CornerRadius=16
+
+themeResourceVariables:
+  - SystemControlPageTextBaseHighBrush=#FF000000
+  - ControlFillColorDefaultBrush=#00FFFFFF
+  - ControlFillColorSecondaryBrush=#00FFFFFF
+  - TextControlContentThemeThickness=0
+  - ControlCornerRadius=16
+  - OverlayCornerRadius=16
+  - MenuFlyoutPresenterCornerRadius=16
+  - FlyoutBorderRadius=16
+  - AppBarButtonForegroundPointerOver=#FF057AFD
+  - AppBarButtonForegroundPressed=#FF057AFD
+  - ToggleButtonForegroundPointerOver=#FF057AFD
+  - ToggleButtonForegroundPressed=#FF057AFD
+  - ButtonForegroundPointerOver=#FF057AFD
+  - MenuFlyoutItemForegroundPointerOver=#FF057AFD
+  - MenuFlyoutItemForegroundPressed=#FF057AFD
+  - SubmenuItemForegroundPointerOver=#FF057AFD
+  - SubmenuItemForegroundPressed=#FF057AFD
+
+explorerFrameContainerHeight: 44
+          
+
+
