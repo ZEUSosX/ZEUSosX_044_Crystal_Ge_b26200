@@ -58,8 +58,9 @@ Follow the standard Windhawk configuration process by installing the Windows 11 
 
 📋 YAML Configuration Highlights
 
-### ** The complete production-ready YAML configuration file is available for direct view and copy here: **
-[ZEUSosX_044_Crystal_Ge_b26200.yaml](https://github.com/ZEUSosX/ZEUSosX_044_Crystal_Ge_b26200/blob/main/ZEUSosX_044_Crystal_Ge_b26200.yaml)
+
+### ** The complete production-ready YAML configuration file is available for direct view and copy here: **                                        ###   [ZEUSosX_044_Crystal_Ge_b26200.yaml](https://github.com/ZEUSosX/ZEUSosX_044_Crystal_Ge_b26200/blob/main/ZEUSosX_044_Crystal_Ge_b26200.yaml)
+
 
 • Theme Name: ZEUSosX_044_Crystal
 • Background Effect: acrylic
