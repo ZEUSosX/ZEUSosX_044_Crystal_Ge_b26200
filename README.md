@@ -93,6 +93,20 @@ This ultra-compressed 1-row layout achieves minimalism via negative XAML bounds.
 
 🔒 **Terms of Use & Copyright**
 
+✅ You CAN:
+
+    Use it for free on your personal system.
+    Apply it to your File Explorer.
+    Share this repository link with others.
+
+❌ You CANNOT:
+
+    Modify, alter, or redistribute this code.
+    Re-brand, rename, or take credit for creating it.
+    Use it commercially, sell it, or rent it for profit under any circumstances.
+
+License: Custom Standard Copyright - All Rights Reserved by ZEUSosX.
+
 Copyright © 2026 ZEUSosX. 
 
 All rights reserved. Custom Standard Copyright - All Rights Reserved by ZEUSosX [1.6].
