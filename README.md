@@ -12,6 +12,16 @@ Starting from this specific Windows configuration:
 * **OS Build:** 26200.9711
 * **Experience Pack:** 1000.26100.372.0
 
+-
+
+* **Also tested ‎10/‎29/‎2026 via VMware Workstation Pro, to:**
+
+* **Edition	Windows 11 Pro / Home (Version 26H2)**
+* **OS build	26300.9818**
+* **Experience	Windows Feature Experience Pack 1000.26100.385.0**
+
+-
+
 Microsoft completely altered the internal graphics compiler and layout engine of the File Explorer window chrome. As a result, older configurations collapsed, causing bad overlapping controls and broken frames. **This theme has been completely rewritten from scratch** with subpixel layout tuning to fix these broken graphical overlapping artifacts and restore the ultra-clean 1-row layout symmetry.
 
 ### 🕵️ Technical Breakdown of the XAML Constraints Re-engineering:
